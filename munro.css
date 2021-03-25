@@ -318,7 +318,7 @@ section .title{
     flex: 100%;
 }
 .ranges{
-    height: 4000px;
+    height: 1700px;
 }
 .ranges .ranges-content .card{
     width: 100%;
@@ -347,7 +347,7 @@ section .title{
     padding: 9px 25px;
 }
 .ranges{
-    height:  3000px;
+    height: 3000px;
 }
 .ranges .skills-content .card{
     width: 100%;
