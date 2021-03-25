@@ -288,8 +288,13 @@ section .title{
     margin: 20px 0;
     font-size: 25px;
 }
+.home{
+    background: url("./munro.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .home .home-content .text-2{
-    font-size: 70px;
+    font-size: 35px;
 }
 .home .home-content .text-3{
     font-size: 35px;
@@ -337,7 +342,7 @@ section .title{
     padding: 9px 25px;
 }
 .ranges{
-    height:  1550px;
+    height:  2500px;
 }
 .ranges .skills-content .card{
     width: 100%;

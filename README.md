@@ -1,1 +1,1 @@
-# munro-site
+Munro site for searching details and walk times
