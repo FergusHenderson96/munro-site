@@ -236,6 +236,14 @@ section .title{
 .home .max-width{
     margin-left: 0px;
 }
+.home{
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position-y: -275px;
+}
+.ranges{
+    height: 2500px;
+}
 }
 
 
@@ -288,6 +296,11 @@ section .title{
     margin: 20px 0;
     font-size: 25px;
 }
+.home{
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position-y: -120px;
+}
 .home .home-content .text-2{
     font-size: 35px;
 }
@@ -312,8 +325,11 @@ section .title{
 .about .about-content .right{
     flex: 100%;
 }
+.about{
+    height: 800px;
+}
 .ranges{
-    height: 2600px;
+    height: 3800px;
 }
 .ranges .ranges-content .card{
     width: 100%;
@@ -330,11 +346,19 @@ section .title{
     font-size: 60px;
 }
 .home .home-content .text-3{
-    font-size: 32px;
+    font-size: 15px;
 }
 .home .home-content a{
-    font-size: 20px;
+    font-size: 10px;
     padding: 9px 25px;
+}
+.home{
+    background-size: 110%;
+    background-attachment: fixed;
+    background-position-y: 0px;
+}
+.about{
+    height: 1100px;
 }
 .ranges{
     height: 3300px;
@@ -351,5 +375,8 @@ section .title{
 }
 .home .home-content .text-3{
     font-size: 27px;
+}
+.ranges{
+    height: 3500px;
 }
 }
