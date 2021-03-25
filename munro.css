@@ -353,7 +353,7 @@ section .title{
     padding: 9px 25px;
 }
 .home{
-    background-size: 110%;
+    background-size: 120%;
     background-attachment: fixed;
     background-position-y: 0px;
 }
@@ -377,7 +377,7 @@ section .title{
     font-size: 27px;
 }
 .home{
-    background-size: 135%;
+    background-size: 140%;
     background-attachment: fixed;
     background-position-y: 0px;
 }
