@@ -95,36 +95,13 @@
 }
 .home-content .text-1{
     font-size: 27px;
+    text-align: center;
 }
 .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-}
-.home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
-}
-.home-content .text-3 span{
-    color: #1C4E80;
-    font-weight: 500;
-}
-.home-content a{
-    display: inline-block;
-    background: #1C4E80;
-    color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #1C4E80;
-    transition: all 0.3s ease;
-}
-.home-content a:hover{
-    color:#1C4E80;
-    color: #cfdff0;
-    background: none;
-    border: 2px solid #1C4E80;
+    text-align: center;
 }
 
 /*all relative content styling code */
@@ -142,7 +119,7 @@ section .title{
 }
 
 /*about section styling */
-.about, .services, .contact, .footer{
+.about{
     font-family: 'Poppins', sans-serif;
 }
 .about{
@@ -229,9 +206,6 @@ section .title{
 }
 
 
-
-
-
 @media (max-width: 1300px){
 .home .max-width{
     margin-left: 0px;
@@ -262,7 +236,7 @@ section .title{
 }
 
 
-
+/* IPAD */
 @media (max-width: 947px){
 .max-width{
     padding: 0 50px;
@@ -307,10 +281,6 @@ section .title{
 .home .home-content .text-2{
     font-size: 40px;
 }
-.home .home-content a{
-    font-size: 23px;
-    padding: 15px 30px;
-}
 .max-width{
     max-width: 800px;
 }
@@ -337,7 +307,7 @@ section .title{
 }
 }
 
-    
+/* IPAD MINI     */
 @media (max-width: 760px){
 .max-width{
     padding: 0 23px;
@@ -361,14 +331,14 @@ section .title{
     height: 1100px;
 }
 .ranges{
-    height: 3300px;
+    height: 3200px;
 }
 .ranges .skills-content .card{
     width: 100%;
 }
 }
 
-
+/* IPhone */
 @media (max-width: 500px){
 .home .home-content .text-1{
     font-size: 19px;
