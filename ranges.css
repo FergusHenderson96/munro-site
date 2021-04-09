@@ -27,3 +27,10 @@
     font-weight: 600;
     color: #304B22;
 }
+@media (max-width: 900px){
+.munros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+}
