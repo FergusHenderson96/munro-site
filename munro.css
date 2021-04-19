@@ -172,7 +172,7 @@ section .title{
 /*ranges section styling */
 .ranges{
     background: #cfdff0;
-    height: 1350px;
+    height: 1400px;
     display: flex;
     flex: wrap;
 }
@@ -205,6 +205,42 @@ section .title{
     margin: 10px 0 7px 0;
 }
 
+/*a-z section styling */
+.munros{
+    background: #cfdff0;
+    height: 500px;
+    display: flex;
+    flex: wrap;
+}
+.list .card{
+    float: left;
+    width: 7%;
+    background: #cfdff0;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+.list .card .box{
+    transition: all 0.3s ease;
+    color: #304B22;
+}
+.list .card:hover .box{
+    transform: scale(1.1);
+}
+.list .card a{
+    font-size: 50px;
+    color: #304B22;
+    transition: color 0.3s ease;
+}
+
+.list .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 
 @media (max-width: 1300px){
 .home .max-width{
@@ -216,23 +252,35 @@ section .title{
     background-position-y: -275px;
 }
 .ranges{
-    height: 2500px;
+    height: 1400px;
+}
+.munros{
+    height: 800px;
+}
+.list .card{
+    font-weight: 600;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
 }
 }
-
 
 @media (max-width: 1104px){
 .about .about-content .left img{
     height: 350px;
     width: 350PX;
 }
+
 }
 
 
 @media (max-width: 991px){
 .max-width{
     padding: 0 50px;
-    }
+}
+
 }
 
 
@@ -296,14 +344,20 @@ section .title{
     flex: 100%;
 }
 .about{
-    height: 800px;
+    height: 950px;
 }
 .ranges{
-    height: 3800px;
+    height: 3000px;
 }
 .ranges .ranges-content .card{
     width: 100%;
     margin-bottom: 20px;
+}
+.list .card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 }
 
@@ -313,7 +367,7 @@ section .title{
     padding: 0 23px;
 }
 .home .home-content .text-1{
-    font-size: 70px;
+    font-size: 40px;
 }
 .home .home-content .text-2{
     font-size: 60px;
@@ -326,15 +380,22 @@ section .title{
     background-size: 120%;
     background-attachment: fixed;
     background-position-y: 0px;
+    height: 800px;
 }
 .about{
-    height: 1100px;
+    height: 900px;
 }
 .ranges{
-    height: 3200px;
+    height: 2900px;
 }
 .ranges .skills-content .card{
     width: 100%;
+}
+.list .card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 }
 
@@ -352,6 +413,6 @@ section .title{
     background-position-y: 0px;
 }
 .ranges{
-    height: 3500px;
+    height: 3600px;
 }
 }
