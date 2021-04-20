@@ -19,8 +19,7 @@
 }
 .munros{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+    flex-direction: row;
     align-items: flex-start;
 }
 .name{
@@ -47,10 +46,10 @@
     transform: scale(1.05);
     color: #1C4E80;
 }
-@media (max-width: 900px){
+@media (max-width: 920px){
 .munros{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: flex-start;
 }
 }
