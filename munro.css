@@ -125,8 +125,7 @@ section .title{
 .about{
     background: #cfdff0;
 }
-.about-content,
-.skills-content{
+.about-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -240,6 +239,27 @@ section .title{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.view{
+    display: flex;
+    justify-content: center;
+}
+.viewB{
+    justify-content: center;
+    width: fit-content;
+    padding: 1px 15px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    color: #000;
+    background: none;
+}
+.viewB p{
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.viewB p:hover{
+    transform: scale(1.1);
 }
 
 @media (max-width: 1300px){
@@ -367,17 +387,17 @@ section .title{
     padding: 0 23px;
 }
 .home .home-content .text-1{
-    font-size: 40px;
+    font-size: 25px;
 }
 .home .home-content .text-2{
-    font-size: 60px;
+    font-size: 30px;
 }
 .home .home-content a{
     font-size: 10px;
     padding: 9px 25px;
 }
 .home{
-    background-size: 120%;
+    background-size: 105%;
     background-attachment: fixed;
     background-position-y: 0px;
     height: 800px;
@@ -386,7 +406,7 @@ section .title{
     height: 900px;
 }
 .ranges{
-    height: 2900px;
+    height: 3100px;
 }
 .ranges .skills-content .card{
     width: 100%;
@@ -413,6 +433,35 @@ section .title{
     background-position-y: 0px;
 }
 .ranges{
-    height: 3600px;
+    height: 3100px;
 }
+}
+
+@media (max-width: 375px){
+    .home{
+        background-size: 175%;
+        background-attachment: fixed;
+        background-position-y: 0px;
+        height: 800px;
+    }
+    .ranges{
+        height: 3400px;
+    }
+    .about{
+        height: 1100px;
+    }
+}
+@media (max-width: 275px){
+    .home{
+        background-size: 225%;
+        background-attachment: fixed;
+        background-position-y: 0px;
+        height: 800px;
+    }
+    .ranges{
+        height: 3600px;
+    }
+    .about{
+        height: 1200px;
+    }
 }
