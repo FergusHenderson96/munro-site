@@ -37,37 +37,36 @@
 }
 .navbar .logo a span{
     color: #304B22;
-    transition: all 0.3s ease;
+    transition: 0.5s ease;
 }
 .navbar .logo a span:hover{
     color: #F0F8FF;
-    transition: all 0.3s ease;
 }
 .navbar.sticky .logo a{
     color: #F0F8FF;
 }
 .navbar.sticky .logo a span{
     color: #F0F8FF;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 .navbar .menu li{
     list-style: none;
     display: inline-block;
 }
 .navbar .menu li a{
-    color: #6495ED;
+    color: #304B22;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color 0.3s ease;
+    transition: 0.5s ease;
     display: block;
 }
 .navbar .menu li a:hover{
-    color: #304B22;
+    transform: scale(1.05);
 }
 .navbar.sticky .menu li a{
     color: #F0F8FF;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
 }
 .navbar.sticky .menu li a:hover{
     transform: scale(1.05);
