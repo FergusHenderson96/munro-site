@@ -60,7 +60,7 @@
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
-    transition: 0.3s ease;
+    display: block;
 }
 .navbar .menu li a:hover{
     color: #304B22;
